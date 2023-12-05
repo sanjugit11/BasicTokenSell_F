@@ -1,0 +1,110 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./Assets/Theme/_var.scss";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: $baseFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
+  background-color: $black;
+  color: $white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+h1,
+.h1 {
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+h2,
+.h2 {
+  font-size: 5rem;
+}
+
+h3,
+.h3 {
+  font-size: 3rem;
+}
+
+h4,
+.h4 {
+  font-size: 2.6rem;
+}
+
+h5,
+.h5 {
+  font-size: 2rem;
+}
+
+h6,
+.h6 {
+  font-size: 1.8rem;
+}
+
+p,
+.p {
+  font-size: 1.6rem;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.container {
+  max-width: 1455px;
+}
+
+.text-gradient {
+  background: $gradient;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

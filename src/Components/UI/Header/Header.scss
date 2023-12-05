@@ -1,0 +1,125 @@
+@import "../../../Assets/Theme/_var.scss";
+
+.header {
+  padding: 3.2rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  transition: all linear 0.15s;
+
+  @media (max-width: 1439px) {
+    padding: 2.5rem 0;
+  }
+  @media (max-width: 767px) {
+    padding: 1.5rem 0;
+  }
+  &__scrolled {
+    top: 0;
+    padding: 2.6rem 0;
+    box-shadow: $boxShadow2;
+
+    @media (max-width: 1439px) {
+      padding: 2rem 0;
+    }
+  }
+
+  &__nav {
+    padding: 0;
+
+    .nav-link {
+      font-size: 1.6rem;
+      color: $white;
+      font-family: $baseFont2;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: capitalize;
+      cursor: pointer;
+      transition: all linear 0.2s;
+
+      @media (max-width: 1439px) {
+        font-size: 1.4rem;
+      }
+
+      &:not(:last-child) {
+        margin-right: 3rem;
+
+        @media (max-width: 1439px) {
+          margin-right: 2rem;
+        }
+      }
+    }
+
+    .navbar-toggler {
+      padding: 0;
+      width: 3.2rem;
+      height: 3.2rem;
+      margin-right: -0.3rem;
+
+      svg {
+        width: inherit;
+        height: inherit;
+      }
+    }
+  }
+
+  &__offcanvas {
+    &.offcanvas {
+      opacity: 1;
+      @media (max-width: 1199px) {
+        background: $black;
+      }
+      .offcanvas-header,
+      .offcanvas-body {
+        @media (max-width: 1199px) {
+          background: $black;
+          padding: 2rem;
+        }
+        @media (max-width: 767px) {
+          padding: 1.5rem;
+        }
+      }
+
+      .offcanvas-header {
+        .btn-close {
+          background-color: $primary;
+          opacity: 1;
+        }
+      }
+
+      .offcanvas-body {
+        @media (max-width: 1199px) {
+          background: $gradient2;
+          padding: 2rem;
+          box-shadow: $boxShadow;
+        }
+
+        @media (max-width: 767px) {
+          padding: 1.5rem;
+        }
+
+        .nav-link {
+          color: $white;
+
+          &:hover,
+          &:focus,
+          &.active {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+  .navbar-brand {
+    padding: 0;
+
+    @media (max-width: 1199px) {
+      max-width: 22rem;
+    }
+
+    @media (max-width: 767px) {
+      max-width: 6rem;
+    }
+  }
+}

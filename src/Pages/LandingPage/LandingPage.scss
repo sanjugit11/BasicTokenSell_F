@@ -1,0 +1,12 @@
+@import "../../Assets/Theme/_var.scss";
+
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &__inner {
+    padding-top: 10.2rem;
+    flex: 1 0 auto;
+  }
+}

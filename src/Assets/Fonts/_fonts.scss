@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Century Gothic";
+  font-weight: 400;
+  src: local("Century Gothic"),
+    url(./century-gothic/CenturyGothic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Century Gothic";
+  font-weight: 400;
+  font-style: italic;
+  src: local("Century Gothic"),
+    url(./century-gothic/GOTHICI.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  font-weight: 700;
+  src: local("Century Gothic"),
+    url(./century-gothic/GOTHICB.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  font-weight: 700;
+  font-style: italic;
+  src: local("Century Gothic"),
+    url(./century-gothic/GOTHICBI.TTF) format("truetype");
+}

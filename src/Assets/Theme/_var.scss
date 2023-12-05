@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "../Fonts/_fonts.scss";
+
+$baseFont: "Century Gothic", sans-serif;
+$baseFont2: "Montserrat", sans-serif;
+
+$white: #ffffff;
+$black: #000000;
+$primary: #ef7027;
+$secondary: #feb84d;
+
+$gradient: linear-gradient(276deg, #feb84d 16.17%, #ef7027 95.08%);
+$gradient2: linear-gradient(183deg, rgba(0, 0, 0, 0) -29.92%, #161616 97.38%);
+
+$boxShadow: 0 1.2rem 1.6rem -0.4rem rgba(255, 255, 255, 0.2),
+  0 0.4rem 0.6rem -0.2rem rgba(255, 255, 255, 0.15);
+$boxShadow2: 0 1rem 1.4rem rgba(255, 255, 255, 0.06);
+$boxShadow3: inset 3px 17px 37px rgba(3, 3, 3, 0.6),
+  inset 0px 0px 5px rgba(255, 255, 255, 0.1);
